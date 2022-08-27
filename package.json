@@ -8,14 +8,19 @@
     "start:run": "nodemon build/index.js",
     "start": "concurrently npm:start:*"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxconor/typescript-futbol-analyzer.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "bugs": {
+    "url": "https://github.com/uxconor/typescript-futbol-analyzer/issues"
+  },
+  "homepage": "https://github.com/uxconor/typescript-futbol-analyzer#readme",
+  "dependencies": {
+    "@types/node": "^18.7.13",
     "concurrently": "^7.3.0",
     "nodemon": "^2.0.19"
-  },
-  "dependencies": {
-    "@types/node": "^18.7.12"
   }
 }
